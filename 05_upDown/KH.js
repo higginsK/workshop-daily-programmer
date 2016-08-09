@@ -5,9 +5,9 @@ function upDownFunc(input){
   //defined function
   var answers = [];
 //made an empty array called answers so I can push to it
-  for (var i = 0; i < 8; i++) {
+  for (var i = 0; i < 20; i++) {
     //for each of the numbers set a variable before the loop starts (var i = 0),
-    //then define the condition for the loop to run (i must be less than).
+    //then define the condition for the loop to run (i must be less than...to avoid infinite looping).
     //(i++) increases the value each time the code block in the loop has been executed.
     if (input[i] > input[i - 1]) {
       answers.push('Up');
